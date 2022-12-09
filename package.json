@@ -1,0 +1,17 @@
+{
+  "name": "test-yarn-checksums",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo-checksum-failure": "./scripts/show-failure.sh",
+    "create-diff": "./scripts/create-diff.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "node-uap": "https://github.com/dschom/node-uap.git#1e0a696e4ad351fdc7dad2b704af2102467cf958",
+    "webcrypto-liner": "https://github.com/dschom/webcrypto-liner.git#aba1a4d2049f4827d1feb2942bac42a252ae8546"
+  }
+}
